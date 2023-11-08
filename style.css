@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body
+{
+ background-image: url(https://media.istockphoto.com/id/1087097456/photo/gold-vintage-fireworks-and-bokeh-in-new-year-eve-and-copy-space-abstract-background-holiday.jpg?b=1&s=612x612&w=0&k=20&c=8poZQkJ8dkDW9ZcQEOK7PG2U37cb6V63z3AmwO7-J34=);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+ width: 100%;
+ color: rgb(109, 5, 125);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.countdown
+{
+  display: flex;
+ 
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+.time small{
+    font-size: 25px;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+}
+.year{
+    position: absolute;
+    font-size: 100px;
+    bottom: 90px;
+    opacity: .4;
+}
